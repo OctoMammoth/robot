@@ -5,7 +5,7 @@ using UnityEngine;
 public class ThirdPersonCamera : MonoBehaviour
 {
     public GameObject target;
-    float radius = 5f, angleX = 0f, angleY = -45f;
+    float radius = 8f, angleX = 0f, angleY = -45f;
 
     void Update()
     {

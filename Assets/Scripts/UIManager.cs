@@ -16,7 +16,7 @@ public class UIManager : MonoBehaviour
 
     private void Awake()
     {
-        repairTimer = 4f;
+        repairTimer = 7f;
         controller = GameObject.Find("Controller");
         MainUI.SetActive(true);
         RepairUI.SetActive(false);
@@ -61,7 +61,7 @@ public class UIManager : MonoBehaviour
             {
                 controller.GetComponent<GameManager>().TimerEndFunction();
                 oneMore = false;
-                repairTimer = 4f;
+                repairTimer = 7f;
             }
             oneMore = true;
         }
